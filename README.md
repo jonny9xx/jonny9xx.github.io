@@ -18,6 +18,7 @@
   "allow_symbol_change": true,
   "save_image": false,
   "watchlist": [
+    "CAPITALCOM:US100",
     "CAPITALCOM:US500",
     "CAPITALCOM:US30"
   ],
