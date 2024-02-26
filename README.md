@@ -1,18 +1,25 @@
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container" style="height:1500px;width:100%">
-  <div class="tradingview-widget-container__widget" style="height:calc(100% - 100px);width:100%"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Hello</span></a></div>
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://de.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Alle Märkte bei TradingView verfolgen</span></a></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
   {
-  "autosize": true,
-  "symbol": "NASDAQ:AAPL",
-  "interval": "D",
-  "timezone": "Etc/UTC",
+  "width": "980",
+  "height": "2500",
+  "symbol": "CME_MINI:MNQ1!",
+  "interval": "15",
+  "timezone": "Europe/Berlin",
   "theme": "dark",
   "style": "1",
-  "locale": "en",
+  "locale": "de_DE",
   "enable_publishing": false,
+  "backgroundColor": "rgba(238, 238, 238, 1)",
+  "gridColor": "rgba(0, 0, 0, 0.06)",
   "allow_symbol_change": true,
+  "watchlist": [
+    "CME_MINI:MES1!",
+    "CBOT_MINI:MYM1!"
+  ],
   "calendar": false,
   "support_host": "https://www.tradingview.com"
 }
