@@ -5,7 +5,7 @@
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
   {
   "width": "980",
-  "height": "2500",
+  "height": "1000",
   "symbol": "CME_MINI:MNQ1!",
   "interval": "15",
   "timezone": "Europe/Berlin",
