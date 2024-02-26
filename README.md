@@ -1,26 +1,29 @@
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a rel="noopener nofollow" target="_blank"><span class="blue-text">Alle Märkte bei TradingView verfolgen</span></a></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
   {
   "width": "1260",
   "height": "680",
   "symbol": "CME_MINI:MNQ1!",
-  "interval": "15",
+  "interval": "5",
   "timezone": "Europe/Berlin",
   "theme": "dark",
   "style": "1",
   "locale": "de_DE",
   "enable_publishing": false,
-  "backgroundColor": "rgba(238, 238, 238, 1)",
+  "backgroundColor": "rgba(20, 20, 20, 1)",
   "gridColor": "rgba(0, 0, 0, 0.06)",
+  "withdateranges": true,
+  "hide_side_toolbar": false,
   "allow_symbol_change": true,
+  "save_image": false,
   "watchlist": [
-    "CME_MINI:MES1!",
-    "CBOT_MINI:MYM1!"
+    "CAPITALCOM:US500",
+    "CAPITALCOM:US30"
   ],
   "calendar": false,
+  "hide_volume": true,
   "support_host": "https://www.tradingview.com"
 }
   </script>
