@@ -4,8 +4,8 @@
   <div class="tradingview-widget-copyright"><a href="https://de.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Alle Märkte bei TradingView verfolgen</span></a></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
   {
-  "width": "980",
-  "height": "1000",
+  "width": "1260",
+  "height": "680",
   "symbol": "CME_MINI:MNQ1!",
   "interval": "15",
   "timezone": "Europe/Berlin",
