@@ -5,7 +5,7 @@
   {
   "width": "1260",
   "height": "680",
-  "symbol": "CME_MINI:MNQ1!",
+  "symbol": "CAPITALCOM:US100",
   "interval": "5",
   "timezone": "Europe/Berlin",
   "theme": "light",
