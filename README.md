@@ -14,7 +14,6 @@
   "enable_publishing": false,
   "backgroundColor": "rgba(20, 20, 20, 1)",
   "gridColor": "rgba(0, 0, 0, 0.06)",
-  "withdateranges": true,
   "hide_side_toolbar": false,
   "allow_symbol_change": true,
   "save_image": false,
